@@ -1,4 +1,4 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 
 console.log("Welcome Again !");
@@ -53,4 +53,5 @@ joined info-· • ●«Legend-Kingdom»● • ·
 **`) 
 }).catch(console.error)
 })
-client.login('NDc2Mjk1Mzk0NjY2NDc5NjM2.DvMgmw.9T6O_0q7pFEjllXpPAIm2mBt_Gw');
+
+client.login(process.env.BOT_TOKEN);
